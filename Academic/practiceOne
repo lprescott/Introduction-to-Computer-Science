@@ -1,0 +1,43 @@
+Python 2.7.5 (default, May 15 2013, 22:44:16) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> city = "Albany"
+>>> letter = city[1]
+>>> print letter
+l
+>>> print city
+Albany
+>>> n=5
+>>> letter = city[n-1]
+>>> print letter
+n
+>>> for letter in city:
+	print "Current Letter: ", letter
+
+	
+Current Letter:  A
+Current Letter:  l
+Current Letter:  b
+Current Letter:  a
+Current Letter:  n
+Current Letter:  y
+>>> x=len(city)
+>>> print x
+6
+>>> fruit = "banana"
+>>> index = 0
+>>> while x>=1:
+	letter = city[x-1]
+	x=x-1
+	print letter,
+
+	
+y n a b l A
+>>> 
+string1 ='I do not attend college'
+>>> print string1[0:1]
+I
+>>> print string1[0:4], string1[8:20]
+I do  attend coll
+>>> print string1[0:4], string1[9:24]
+I do attend college
+>>> 
